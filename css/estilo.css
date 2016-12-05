@@ -1,0 +1,180 @@
+html, body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.cabecera
+{
+    width: 100%;
+    height: 25px;
+    background: #B6484C;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.logo
+{
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+
+.herramientas
+{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    background: #303030;
+    top: 0px;
+    z-index: 1;
+   
+}
+
+
+.marca{background-color: #303030; height: 40px; padding: 5px;}
+.marca:hover
+{
+    height: 40px;
+    padding: 4px;
+    background-color: #505050; 
+}
+
+
+
+.workspace
+{
+    margin-bottom: 30px;
+    margin-left: 21%;
+    margin-right: 30px;
+   
+}
+
+
+.caja_texto
+{
+    margin-top: -5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #DBE1EB;
+}
+
+
+
+.btn
+{
+    margin-top: -5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+
+
+.btn_submit
+{
+    
+    border: 1px solid #149DCC;
+    background: #149DCC;
+    color: white;
+}
+
+.btn_submit:hover
+{
+    border: 1px solid #0099B2;
+    background: #0099B2;
+    color: white;
+}
+
+
+.btn_edit
+{
+    
+    border: 1px solid #75B215;
+    background: #75B215;
+    color: white;
+}
+
+.btn_edit:hover
+{
+    border: 1px solid #83BA2B;
+    background: #83BA2B;
+    color: white;
+}
+
+
+
+.btn_delete
+{
+    
+    border: 1px solid #BF213E;
+    background: #BF213E;
+    color: white;
+}
+
+.btn_delete:hover
+{
+    border: 1px solid #F24968;
+    background: #F24968;
+    color: white;
+}
+
+
+
+.table
+{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td
+{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+
+
+.footer
+{
+    width: 100%;
+    height: 50px;
+    background: #202020;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px; 
+    z-index: 3;
+}
+
+
+.texto_footer
+{
+    color: #fff;
+    font-size: 11px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
